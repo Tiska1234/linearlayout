@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#ECA09B">
+
+        <TextView
+            android:id="@+id/textview11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:text="Reza Wijayanti"
+            android:textSize="34sp"
+            tools:ignore="hardcodedText,InefficentWeight" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="2233271"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#7C4D5D">
+
+        <TextView
+            android:id="@+id/textview12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2233272"
+            android:orientation="vertical"
+            android:text="Saddam Hanif"
+            android:textSize="34sp"
+            tools:ignore="hardcodedText,InefficentWeight" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2233272"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#6B9E2F">
+
+        <TextView
+            android:id="@+id/textview13"
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:text="Safira Laili A."
+            android:textSize="34sp"
+            tools:ignore="DuplicateIds,InefficentWeight,hardcodedText" />
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:text="2233273"
+            android:textSize="34sp"
+            tools:ignore="DuplicateIds,InefficentWeight,hardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#51BAB0">
+
+        <TextView
+            android:id="@+id/textview14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:text="Tiska Aurilia.P.P"
+            android:textSize="34sp"
+            tools:ignore="DuplicateIds,InefficentWeight,hardcodedText" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2233274"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#B29ED6">
+
+        <TextView
+            android:id="@+id/textview15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:text="Zalfa Aulia Y."
+            android:textSize="34sp"
+            tools:ignore="hardcodedText,InefficentWeight" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2233275"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
